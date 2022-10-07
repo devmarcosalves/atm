@@ -20,5 +20,5 @@ Trata-se de um software que simula a atividade diária de um caixa automático d
 
 # Autores
 
-| [<img src="https://avatars.githubusercontent.com/u/102601006?s=400" width=115><br><sub>Marcos Alves</sub>](https://github.com/marcos-alvs) |  [<img src="https://avatars.githubusercontent.com/u/" width=115><br><sub>Émile Nascimento</sub>](https://github.com/) |
+| [<img src="https://avatars.githubusercontent.com/u/102601006?s=400" width=115><br><sub>Marcos Alves</sub>](https://github.com/marcos-alvs) |  [<img src="https://avatars.githubusercontent.com/u/" width=115><br><sub>Émile Nascimento</sub>](https://github.com/emilepaixao) |
 | :---: | :---: |
