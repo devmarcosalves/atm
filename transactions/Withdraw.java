@@ -2,6 +2,8 @@ package transactions;
 import java.util.Scanner;
 import static program.Machine.nota2; import static program.Machine.nota10;
 import static program.Machine.nota20; import static program.Machine.nota50;
+import program.Confirmation;
+
 
 public class Withdraw {
 	public double valorsaque;
@@ -12,10 +14,10 @@ public class Withdraw {
 		}
 		int cont50=0, cont20=0, cont10=0, cont2=0;
 		Scanner sc = new Scanner(System.in);
-		
-		
 		System.out.print("Informe quanto deseja sacar: ");
 		valorsaque = sc.nextInt();
+		Confirmation con = new Confirmation();
+		if(con.authorization()==1) {
 		if(valorsaque > x) {
 			System.out.println("Saldo Insuficiente! Você tem R$" + x);
 			return x;
@@ -51,6 +53,7 @@ public class Withdraw {
 				 x = x + 1;
 				break;
 			}
+			
 		}while(valorsaque>0);
 		if(cont50>0) {
 			System.out.println(cont50+" nota(s) de R$50,00");
@@ -64,6 +67,8 @@ public class Withdraw {
 		if(cont2>0) {
 			System.out.println(cont2+" nota(s) de R$2,00");
 		}
+		}else
+			System.out.println("Senha Incorreta");
      	return x;
 	}
 }
