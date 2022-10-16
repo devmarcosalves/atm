@@ -6,22 +6,21 @@ import static program.Machine.nota20; import static program.Machine.nota50;
 public class Users {
 	public double saldo2=0; public double saldo3=0;
 	public double saldo4=0; public double saldo5=0; public double saldo6=0;
-	
 	Menu objMenu = new Menu();
 	public void user2(){
-		saldo2= objMenu.opcoes(saldo2);
+		saldo2 = objMenu.opcoes(saldo2);
 	}
 	public void user3(){
-		saldo3= objMenu.opcoes(saldo3);
+		saldo3 = objMenu.opcoes(saldo3);
 	}
 	public void user4(){
-		saldo4=objMenu.opcoes(saldo4);
+		saldo4 = objMenu.opcoes(saldo4);
 	}
 	public void user5(){
-		saldo5=objMenu.opcoes(saldo5);
+		saldo5 = objMenu.opcoes(saldo5);
 	}
 	public void user6(){
-		saldo6= objMenu.opcoes(saldo6);
+		saldo6 = objMenu.opcoes(saldo6);
 	}
 	public void adm() {
 		Scanner sc = new Scanner(System.in);

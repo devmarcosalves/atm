@@ -4,7 +4,6 @@ import static program.Machine.nota2; import static program.Machine.nota10;
 import static program.Machine.nota20; import static program.Machine.nota50;
 import program.Confirmation;
 
-
 public class Withdraw {
 	public double valorsaque;
 	public double saque(double x) {
@@ -53,7 +52,6 @@ public class Withdraw {
 				 x = x + 1;
 				break;
 			}
-			
 		}while(valorsaque>0);
 		if(cont50>0) {
 			System.out.println(cont50+" nota(s) de R$50,00");

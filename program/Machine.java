@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Machine {
 	public static int nota2=20; public static int nota10=20; public static int nota20=20; public static int nota50=20;
 	public static int login; public static int senha;
+	
 	public static void main(String[] args) {
 	  Scanner sc = new Scanner(System.in);
 		Users use = new Users();
